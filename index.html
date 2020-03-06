@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Celcius to kelvin Temperature Converter</title>
+<script type="text/javascript" src="b.js"></script>
+<link rel="stylesheet" type="text/css" href="k.css">
+    </head>
+<body>
+<div>
+<h1>Temperature Converter</h1>
+<p>Type a value in the Celcius field to convert the value to kelvin:</p>
+
+<p>
+  <label>celsius</label>
+  <input id="inputcelsius" type="number" placeholder="celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>kelvin: <span id="kelvin"></span></p>
+<script>
+    function temperatureConverter(valNum) {
+      valNum = parseFloat(valNum);
+      document.getElementById("kelvin").innerHTML=(valNum+273.5);
+    }
+    </script>
+</div>
+<footer>
+    <div>&copy; BHASKARREDDY2020</div>
+</footer>
+</body>
+</html>
