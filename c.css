@@ -54,8 +54,8 @@ color: red;
 font-style: oblique;
 }
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   hr {
     border: 1px solid red;
     margin-bottom: 25px;
@@ -67,5 +67,24 @@ font-style: oblique;
   border-radius: 50%;
   margin-top: 30px;
   border-radius: 2px solid black;
+}
+.custom{
+  margin:1px;
+  min-height: 400px;
+  width: 300px;
+  background-color: silver;
+  text-align: center;
+  font-size: large;
+  margin-top: 9px;
+
+}
+ gang{
+margin-top: 7px;
+}
+.center-block{
+  width: 500px;
+  height:500px;
+  margin-left: 350px;
+  margin-top: 40px;
 }
     
